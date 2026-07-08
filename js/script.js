@@ -126,16 +126,29 @@ function markSectionsForReveal() {
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 }
 
-// ---------- Contact form (Netlify Forms friendly) ----------
+// ---------- Contact form (Netlify Forms, with a confirmation alert) ----------
 function setupForm() {
   const form = document.getElementById('contactForm');
   if (!form) return;
+
   form.addEventListener('submit', (e) => {
-    // If you enable Netlify Forms (see README), remove this preventDefault
-    // and add the required hidden fields/attributes instead.
-   
-    alert('Message submitted!');
-    form.reset();
+    e.preventDefault(); // stop the browser's default page-navigation submit
+
+    const formData = new FormData(form);
+
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(formData).toString()
+    })
+      .then(() => {
+        alert('Message submitted! We will get back to you soon.');
+        form.reset(); // only clears the form AFTER the real data has been sent
+      })
+      .catch((error) => {
+        console.error('Form submission error:', error);
+        alert('Something went wrong sending your message. Please try again, or email us directly.');
+      });
   });
 }
 
