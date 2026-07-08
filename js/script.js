@@ -3,7 +3,15 @@ async function loadContent() {
   try {
     const res = await fetch('content/content.json', { cache: 'no-store' });
     const data = await res.json();
-
+// Logo: if an image is set, show it and hide the text version
+    const logoImg = document.getElementById('logoImg');
+    const logoText = document.getElementById('logoText');
+    if (logoImg && data.logo) {
+      logoImg.src = data.logo;
+      logoImg.style.display = 'block';
+      if (logoText) logoText.style.display = 'none';
+    }
+    
     // Simple text/href fields marked with data-field="path.to.value"
     document.querySelectorAll('[data-field]').forEach(el => {
       const path = el.getAttribute('data-field').split('.');
