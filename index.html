@@ -111,7 +111,8 @@
           <!-- populated by JS from content.json: contact -->
         </ul>
       </div>
-      <form class="contact-form" id="contactForm">
+      <form class="contact-form" id="contactForm" data-netlify="true" name="contact" method="POST">
+        <input type="hidden" name="form-name" value="contact">
         <label>Name
           <input type="text" name="name" required>
         </label>
