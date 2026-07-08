@@ -14,7 +14,7 @@ collections:
         label: "Homepage"
         name: "homepage"
         fields:
-        - { label: "Logo", name: "logo", widget: "image", required: false }
+          - { label: "Logo", name: "logo", widget: "image", required: false }
           - label: "Hero"
             name: "hero"
             widget: "object"
