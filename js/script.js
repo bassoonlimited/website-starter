@@ -110,6 +110,14 @@ function setupNavToggle() {
       toggle.setAttribute('aria-expanded', 'false');
     });
   });
+
+  // Close the mobile dropdown automatically as soon as the page is scrolled
+  window.addEventListener('scroll', () => {
+    if (nav.classList.contains('is-open')) {
+      nav.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  }, { passive: true });
 }
 
 // ---------- Scroll reveal ----------
