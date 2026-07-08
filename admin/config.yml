@@ -13,8 +13,9 @@ collections:
       - file: "content/content.json"
         label: "Homepage"
         name: "homepage"
-        fields:
+         fields:
           - { label: "Logo", name: "logo", widget: "image", required: false }
+        
           - label: "Hero"
             name: "hero"
             widget: "object"
