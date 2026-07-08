@@ -11,7 +11,7 @@ async function loadContent() {
       logoImg.style.display = 'block';
       if (logoText) logoText.style.display = 'none';
     }
-    
+
     // Simple text/href fields marked with data-field="path.to.value"
     document.querySelectorAll('[data-field]').forEach(el => {
       const path = el.getAttribute('data-field').split('.');
@@ -133,8 +133,8 @@ function setupForm() {
   form.addEventListener('submit', (e) => {
     // If you enable Netlify Forms (see README), remove this preventDefault
     // and add the required hidden fields/attributes instead.
-    e.preventDefault();
-    alert('Form submitted! (Connect this to Netlify Forms or another service — see the README.)');
+   
+    alert('Message submitted!');
     form.reset();
   });
 }
