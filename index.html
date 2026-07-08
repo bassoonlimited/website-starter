@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bassoon Limited — PPE & Hygiene Solutions for Kenya's Food Industry</title>
+<meta name="description" content="Bassoon Limited supplies PPE and hygiene solutions for Kenya's food industry — masks, gloves, hairnets, dustcoats, safety boots and cold room wear.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo">Bassoon Limited</a>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a>
+      <a href="#process">Mission &amp; Vision</a>
+      <a href="#services">Products</a>
+      <a href="#work">Why Us</a>
+      <a href="#contact" class="nav-cta">Contact Us</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <p class="eyebrow" data-field="hero.eyebrow">Protecting Workforce, Safeguarding Food</p>
+      <h1 class="hero-title">
+        <span data-field="hero.title">PPE and hygiene solutions for Kenya's food industry.</span>
+        <svg class="underline-draw" viewBox="0 0 600 20" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M2 14 C 150 2, 450 18, 598 8" />
+        </svg>
+      </h1>
+      <p class="hero-sub" data-field="hero.subtitle">Bassoon Limited supplies masks, gloves, hairnets, dustcoats, safety boots, cold room wear and more — everything food processors, manufacturers and handlers need to meet hygiene and safety standards.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" data-field="hero.ctaText" data-field-href="hero.ctaLink" href="#contact">Get In Touch</a>
+        <a class="btn btn-ghost" href="#services">Browse products</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="wrap about-grid">
+      <div class="about-copy">
+        <p class="eyebrow">About the company</p>
+        <h2 data-field="about.heading">Your safety. Our priority.</h2>
+        <p data-field="about.text">Bassoon Limited is a trusted supplier of high-quality personal protective equipment (PPE) and hygiene solutions tailored for the food industry. We specialise in a comprehensive range of safety products — masks, HDPE gloves, latex gloves, hairnets, dustcoats, safety boots, cold room suits and overalls — all designed to meet hygiene and safety standards. We also supply office supplies and stationery for all your office needs.Committed to excellence, we ensure that our products enhance workplace safety,prevent contamination and comply with food industry regulations. Whether for food processing, packaging or handling. Bassoon Limited delivers reliable, durable and cost effective PPE Solutions to safe guard both your workforce and products.</p>
+      </div>
+      <div class="about-stats" id="statsList">
+        <!-- populated by JS from content.json: about.stats -->
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section process" id="process">
+    <div class="wrap">
+      <p class="eyebrow">What drives us</p>
+      <h2>Mission &amp; Vision</h2>
+      <ol class="process-list" id="processList">
+        <!-- populated by JS from content.json: process -->
+      </ol>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section services" id="services">
+    <div class="wrap">
+      <p class="eyebrow">What we supply</p>
+      <h2>Our Products</h2>
+      <div class="services-grid" id="servicesList">
+        <!-- populated by JS from content.json: services -->
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="section testimonials" id="work">
+    <div class="wrap">
+      <p class="eyebrow">Why work with us</p>
+      <h2>Built for the food industry</h2>
+            <p class="why-us-text" data-field="whyUs.text">Bassoon Limited brings PPE, hygiene gear, cold room wear and office supplies together under a single supplier, so you're not juggling multiple vendors to stay compliant. Every product is chosen to meet food industry hygiene and safety standards — not repurposed from a general industrial catalogue. From sized gloves and hairnets to insulated cold room suits, our range is built to hold up to the daily demands of food processing, giving you dependable protection for your workforce and your product line.</p>
+
+      <div class="testimonial-list" id="testimonialList">
+        <!-- populated by JS from content.json: testimonials -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="eyebrow">Get in touch</p>
+        <h2 data-field="contact.heading">Let's work together.</h2>
+        <p data-field="contact.text">Get in touch for pricing, bulk orders, or help choosing the right PPE for your facility.</p>
+        <ul class="contact-details" id="contactDetails">
+          <!-- populated by JS from content.json: contact -->
+        </ul>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label>Name
+          <input type="text" name="name" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" required>
+        </label>
+        <label>How can we help you today?
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Send message</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span data-field="footer.text">© 2026 Bassoon Limited. All rights reserved.</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

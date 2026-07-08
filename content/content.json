@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "eyebrow": "Protecting Workforce, Safeguarding Food",
+    "title": "PPE and hygiene solutions for Kenya's food industry.",
+    "subtitle": "Bassoon Limited supplies masks, gloves, hairnets, dustcoats, safety boots, cold room wear and more — everything food processors, manufacturers and handlers need to meet hygiene and safety standards.",
+    "ctaText": "Get In Touch",
+    "ctaLink": "#contact"
+  },
+  "about": {
+    "heading": "Your safety. Our priority.",
+    "text": "Bassoon Limited is a trusted supplier of high-quality personal protective equipment (PPE) and hygiene solutions tailored for the food industry. We specialise in a comprehensive range of safety products — masks, HDPE gloves, latex gloves, hairnets, dustcoats, safety boots, cold room suits and overalls — all designed to meet hygiene and safety standards. We also supply office supplies and stationery for all your office needs.Committed to excellence, we ensure that our products enhance workplace safety,prevent contamination and comply with food industry regulations. Whether for food processing, packaging or handling. Bassoon Limited delivers reliable, durable and cost effective PPE Solutions to safe guard both your workforce and products. ",
+    "stats": [
+      { "number": "PPE", "label": "Masks, gloves, boots, suits & more" },
+      { "number": "Hygiene", "label": "Products built for food safety compliance" },
+      { "number": "Kenya", "label": "Supplying food processors nationwide" }
+    ]
+  },
+  "process": [
+    { "step": "Our Mission", "description": "We are committed to raising hygiene standards across Kenya's food industry by supplying high-quality PPE and safety gear. From gloves and masks to full-body suits, we equip food processors, manufacturers and handlers with dependable protection that ensures compliance and reduces contamination risks." },
+    { "step": "Our Vision", "description": "To be Kenya's leading supplier in food safety — setting the standard for hygiene excellence, advanced PPE and sustainable safety practices. We envision a future where every food handler works free from contamination risks, creating safer workplaces and a food supply chain Kenya and the world can trust." }
+  ],
+  "services": [
+    { "title": "Face Masks","image": "images/masks.png", "description": "Professional-grade blue 3-ply masks providing essential barrier protection in food production environments." },
+    { "title": "Safety Boots","image":"images/Safety Boots.jpg","description": "Heavy-duty, food-grade safety boots designed for wet, slippery and hygienic food production environments." },
+    { "title": "Hairnets", "image":"images/hairnets.jpg","description": "Industry-standard disposable hairnets in blue and white, designed to prevent contamination and comply with hygiene regulations." },
+    { "title": "HDPE Gloves","image":"images/hdpe gloves.jpg", "description": "Food-safe, lightweight polyethylene gloves for hygienic food handling and light tasks. Sizes S–XL, clear/white." },
+    { "title": "Latex Gloves","image":"images/nitrile powder free gloves.jpg", "description": "Premium natural rubber latex gloves offering superior elasticity, comfort and protection. Sizes S–XL, clear/white." },
+    { "title": "Dustcoats","image":"images/dustcoats.jpg", "description": "Lightweight, breathable dustcoats in blue and white, designed for hygiene and protection in food processing and cleanroom environments." },
+    { "title": "Cold Room Suits & Overalls","image":"images/cold room overalls.jpg", "description": "Heavy-duty, insulated workwear for sub-zero environments — freezers, cold storage and meat processing. Built for maximum warmth and durability." },
+    { "title": "Cold Room Jackets & Trousers","image":"images/cold room jacket and trouser.png", "description": "Insulated, durable workwear designed for sub-zero environments, offering warmth without compromising mobility." },
+    { "title": "Disposable Cups","image":"images/disposable cups.jpg","description": "High-quality food-grade plastic cups in clear, white or custom colours, plus eco-friendly paper cups for hot and cold beverages in standard sizes." },
+    { "title": "Office Stationery","image":"images/office.jpg", "description": "A wide range of stationery and office essentials — pens, pencils, paper, notebooks, files and more." },
+    { "title": "Helmets","image":"images/helmets.jpeg", "description": "Durable safety helmets available in multiple colours to ensure worker protection, safety and comfort." },
+    { "title": "Reflectors","image":"images/reflectors.jpg", "description": "High-visibility safety reflectors in multiple sizes and colours, keeping workers visible in low-light or high-traffic environments." }
+  ],
+  "testimonials": [
+    { "quote": "Comprehensive PPE and hygiene products built specifically for food industry compliance.", "author": "Compliance-focused" },
+    { "quote": "Reliable, durable and cost-effective solutions to safeguard your workforce and your products.", "author": "Built to last" }
+  ],
+  "contact": {
+    "heading": "Let's work together.",
+    "text": "Get in touch for pricing quote, making orders, or help choosing the right PPE for your facility.",
+    "email": "bassoonlimited@gmail.com",
+    "phone": "+25422599816 / +254792210622 /+254119413495",
+    "address": "Nairobi, Kenya"
+  },
+  "footer": {
+    "text": "© 2026 Bassoon Limited. All rights reserved."
+  }
+}
