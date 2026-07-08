@@ -14,8 +14,6 @@ collections:
         label: "Homepage"
         name: "homepage"
         fields:
-          - { label: "Logo", name: "logo", widget: "image", required: false }
-
           - label: "Hero"
             name: "hero"
             widget: "object"
@@ -39,27 +37,26 @@ collections:
                   - { label: "Number", name: "number", widget: "string" }
                   - { label: "Label", name: "label", widget: "string" }
 
-          - label: "Mission & Vision"
+          - label: "Process steps"
             name: "process"
             widget: "list"
             fields:
-              - { label: "Title", name: "step", widget: "string" }
+              - { label: "Step name", name: "step", widget: "string" }
               - { label: "Description", name: "description", widget: "text" }
 
-          - label: "Products"
-            name: "products"
+          - label: "Services"
+            name: "services"
             widget: "list"
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - { label: "Photo", name: "image", widget: "image", required: false }
               - { label: "Description", name: "description", widget: "text" }
 
-          - label: "Why Us"
-            name: "whyUs"
-            widget: "object"
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
             fields:
-              - { label: "Heading", name: "heading", widget: "string" }
-              - { label: "Body text", name: "text", widget: "text" }
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Author", name: "author", widget: "string" }
 
           - label: "Contact"
             name: "contact"
