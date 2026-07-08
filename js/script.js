@@ -141,14 +141,18 @@ function setupForm() {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: new URLSearchParams(formData).toString()
     })
-      .then(() => {
-        alert('Message submitted! We will get back to you soon.');
-        form.reset(); // only clears the form AFTER the real data has been sent
-      })
-      .catch((error) => {
-        console.error('Form submission error:', error);
-        alert('Something went wrong sending your message. Please try again, or email us directly.');
-      });
+      .then((response) => {
+        if (response.ok) {
+          alert('Message submitted! We will get back to you soon.');
+          form.reset();
+    } else {
+      alert('Netlify rejected the submission (status ' + response.status + '). Please tell your developer this exact number.');
+    }
+  })
+  .catch((error) => {
+    console.error('Form submission error:', error);
+    alert('Something went wrong sending your message. Please try again, or email us directly.');
+  });
   });
 }
 
